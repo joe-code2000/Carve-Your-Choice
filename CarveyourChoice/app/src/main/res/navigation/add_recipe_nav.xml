@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_recipe_nav"
+    app:startDestination="@id/addRecipeFragment">
+
+    <fragment
+        android:id="@+id/addRecipeFragment"
+        android:name="com.example.carveyourchoice.Fragments.MyRecipe.AddRecipeFragment"
+        android:label="fragment_add_recipe"
+        tools:layout="@layout/fragment_add_recipe" >
+        <action
+            android:id="@+id/action_addRecipeFragment_to_myRecipeSelectIngredientFragment"
+            app:destination="@id/myRecipeSelectIngredientFragment" />
+        <action
+            android:id="@+id/action_addRecipeFragment_to_listCategoriesFragment"
+            app:destination="@id/listCategoriesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/myRecipeSelectIngredientFragment"
+        android:name="com.example.carveyourchoice.Fragments.SelectIngredientFragment"
+        android:label="fragment_my_recipe_select_ingredient"
+        tools:layout="@layout/fragment_select_ingredient" >
+        <action
+            android:id="@+id/action_myRecipeSelectIngredientFragment_to_addRecipeFragment"
+            app:destination="@id/addRecipeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listCategoriesFragment"
+        android:name="com.example.carveyourchoice.Fragments.ListCategoriesFragment"
+        android:label="fragment_list_categories"
+        tools:layout="@layout/fragment_list_categories" >
+        <action
+            android:id="@+id/action_listCategoriesFragment_to_addRecipeFragment"
+            app:destination="@id/addRecipeFragment" />
+    </fragment>
+</navigation>

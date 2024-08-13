@@ -1,0 +1,147 @@
+[
+  {
+    "Id":1,
+    "User_Id":1,
+    "Name":"pancake",
+    "Diet": "",
+    "Category_Id":2,
+    "Image":"pancake",
+    "Duration":"15 minutes",
+    "Instructions":"In a large bowl, sift together the flour, baking powder, salt and sugar. Make a well in the center and pour in the milk, egg and melted butter; mix until smooth. Heat a lightly oiled griddle or frying pan over medium-high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot.",
+    "Ingredients":"[5,10,12,17,30]",
+    "Video_Url":"https://youtu.be/FLd00Bx4tOk"
+  },
+  {
+    "Id":2,
+    "User_Id":1,
+    "Name":"sandwich",
+    "Diet": "",
+    "Category_Id":2,
+    "Image":"sandwich",
+    "Duration":"10 minutes",
+    "Instructions":" Next take two slices of bread and butter each of them on one side only.Put your filling on one slice of bread, butter side up. You may choose two fillings. Place the other piece of bread, butter side down, on top of the filling. Now cut your sandwich carefully with a knife. Now sit down and enjoy your sandwich. ",
+    "Ingredients":"[3,5,6,10,15]",
+    "Video_Url":"https://youtu.be/0x7P_SsM3lY"
+  },
+  {
+    "Id":3,
+    "User_Id":1,
+    "Name":"sausage omelette",
+    "Diet": "",
+    "Category_Id":2,
+    "Image":"sausage_omelette",
+    "Duration":"15 minutes",
+    "Instructions":"Beat the whole eggs seasoned with salt and pepper. Add the sausages cut into slices and set aside. Heat the olive oil in a frying pan. When the olive oil is hot enough, pour the egg mixture and cook slightly over low heat. When the eggs start to cook, sprinkle with grated cheese and let cook a little more. Wrap the omelette with a spatula and let it brown slightly on both sides.",
+    "Ingredients":"[6,10,13,17,19,30]",
+    "Video_Url":"https://youtu.be/_RsYcyHEKI0"
+  },
+  {
+    "Id":4,
+    "User_Id":1,
+    "Name":"choco tea",
+    "Diet": "",
+    "Category_Id":2,
+    "Image":"choco_tea",
+    "Duration":"8 minutes",
+    "Instructions":"Add 3/4 litre of milk and 1/4 water litre to pot and boil for 8 minutes then add choco powder and stir",
+    "Ingredients":"[9,17,28]",
+    "Video_Url":"https://youtu.be/zNXLZ70dzQM"
+  },
+
+  {
+    "Id":5,
+    "User_Id":1,
+    "Name":"shrimp",
+    "Diet": "",
+    "Category_Id":3,
+    "Image":"shrimp",
+    "Duration":"30 minutes",
+    "Instructions":"put shrimp in a mixing bowl and rub them in seasoning mixture. Next turn the stove on and heat the oil or butter over medium-high heat. When the butter is melted or the oil moves around the pan easily, add the shrimp to the hot pan. Cook the shrimp for 2-3 minutes on each side, flipping only once midway.",
+    "Ingredients":"[2,5,13,20,21,26,27]",
+    "Video_Url":"https://youtu.be/GJE4j88iWU4"
+  },
+  {
+    "Id":6,
+    "User_Id":1,
+    "Name":"lasagna",
+    "Diet": "",
+    "Category_Id":3,
+    "Image":"lasanga",
+    "Duration":"40 minutes",
+    "Instructions":"Combine pork and ground beef in a large, deep skillet over medium-high heat; cook and stir until browned and crumbly, 5 to 7 minutes. Add onion and cook until translucent, about 5 minutes. Stir in crushed tomatoes, tomato sauce, 1 tablespoon fresh parsley, garlic, basil, salt, oregano, and sugar. Reduce heat to medium-low and simmer, stirring occasionally, for 30 minutes. While the sauce is simmering, bring a large pot of lightly salted water to a boil. Cook lasagna noodles in the boiling water, stirring occasionally, until tender yet firm to the bite, 8 to 10 minutes. Drain and set aside. While the sauce is simmering, bring a large pot of lightly salted water to a boil. Cook lasagna noodles in the boiling water, stirring occasionally, until tender yet firm to the bite, 8 to 10 minutes. Drain and set aside. Mix cottage cheese, Parmesan cheese, eggs, remaining 1 tablespoon fresh parsley, salt, and pepper in a large bowl until combined. Assemble lasagna: Spread a spoon or two of sauce over the bottom of a 9x13-inch baking dish just to to coat it. Place two layers of noodles over the sauce to cover. Layer with 1/2 of the cheese mixture, 1/2 of the remaining sauce, and 1/2 of the mozzarella cheese. Repeat layers once more using the remaining noodles, cheese mixture, sauce, and mozzarella. Cover the baking dish with aluminum foil. Bake in the preheated oven for 30 to 40 minutes. Remove the foil and bake until cheese is golden brown, 5 to 10 more minutes.",
+    "Ingredients":"[2,7,10,13,16,17,18,19,22]",
+    "Video_Url":"https://youtu.be/VkQajdYciW0"
+  },
+  {
+    "Id":7,
+    "User_Id":1,
+    "Name":"parmesan fettuccine",
+    "Diet": "",
+    "Category_Id":3,
+    "Image":"parmesan_fettuccine",
+    "Duration":"35 minutes",
+    "Instructions":"Start by bringing water to a boil in a large pot. Add salt to the water to season the pasta. Once it is boiling, add pasta and cook according to package instructions.Saute the garlic and butter together until softened -- about 1 to 2 minutes. Add heavy cream and let simmer over medium-high heat for about 5 minutes to thicken. Add salt and pepper to taste. Add half of the parmesan cheese to the mixture and whisk well until smooth. Garnish with Italian parsley, if so desired.",
+    "Ingredients":"[5,11,13,21,22,24,30]",
+    "Video_Url":""
+  },
+  {
+    "Id":8,
+    "User_Id":1,
+    "Name":"french fries & chicken",
+    "Diet": "",
+    "Category_Id":3,
+    "Image":"french_fries_chicken",
+    "Duration":"45 minutes",
+    "Instructions":"For the chicken: Preheat the oven to 425 degrees F. Combine the salt, sugar, garlic powder onion powder, paprika, pepper and turmeric.Roast the chicken until the thickest part of the thigh reaches 165 degrees F, about 1 1/2 hours. Remove the chicken and cover with aluminum foil for about 20 minutes. For the fries: Heat the oil in a deep heavy pot over medium heat until it reaches 350 degrees F. Meanwhile, slice your russets into fries about a 1/4-inch thick, skin on. Serve the chicken with the fries.",
+    "Ingredients":"[7,19,23,30,37,38]",
+    "Video_Url":"https://youtu.be/x5yl2cJ7mXg"
+  },
+  {
+    "Id":9,
+    "User_Id":1,
+    "Name":"mary me chicken",
+    "Diet": "",
+    "Category_Id":4,
+    "Image":"mary_me_chicken",
+    "Duration":"1 hour 20 minutes",
+    "Instructions":"Preheat oven to 375° Fahrenheit. Liberally season each chicken breast with salt and pepper on both sides. Heat olive oil in cast iron skillet over medium-high heat. When hot, add chicken to skillet. Sear 3 to 4 minutes, then flip and sear on other side 3 to 4 minutes.Remove seared chicken from skillet and set aside. Add garlic to skillet and cook until fragrant, approximately 1 to 2 minutes. Stir in broth and heavy cream, then slowly add grated parmesan, sun dried tomatoes, oregano, and red pepper flakes. Bring mixture to simmer, then return chicken breasts to skillet. Quickly flip chicken a time or two to coat in sauce, then transfer entire skillet to oven.  Bake 15 to 20 minutes, or until chicken reaches internal temperature of 165° Fahrenheit. Remove chicken from skillet and plate with desired sides. Spoon additional sauce from skillet over chicken, garnish with chiffonaded basil, and serve immediately.",
+    "Ingredients":"[7,8,13,19,21,24,33,36]",
+    "Video_Url":""
+  },
+  {
+    "Id":10,
+    "User_Id":1,
+    "Name":"mashed potatoes & goat ribs",
+    "Diet": "",
+    "Category_Id":4,
+    "Image":"mashed_potatoes_goat_meat",
+    "Duration":"45 minutes",
+    "Instructions":"Boil the potatoes: Add the potatoes and garlic to a large pot of salted, boiling water. Reduce the heat and simmer until the potatoes are tender. Heat the milk: Heat the milk and butter in a saucepan until the butter is melted. Mash the potatoes: Drain the potatoes, then return them to the pot. Slowly add the warm milk mixture, mashing with a potato masher or blending with a mixer until the potatoes are smooth and creamy. Season to taste",
+    "Ingredients":"[1,2,13,14,20,23,30]",
+    "Video_Url":""
+  },
+  {
+    "Id":11,
+    "User_Id":1,
+    "Name":"chicken vegetables skillet",
+    "Diet": "",
+    "Category_Id":4,
+    "Image":"chicken_vegetables_skillet",
+    "Duration":"45 minutes",
+    "Instructions":"First, cook the chicken: Season chicken bites with salt and pepper, olive oil, and cajun seasoning. Sautee the chicken bites for about 5-7 minutes until cooked through and browned. Cook the vegetables: In the same skillet, stir fry the onion, then add the rest of the vegetables. Season with Cajun seasoning and cook on medium until vegetables are crisp-tender. Deglaze the pan with chicken stock, then add the cooked chicken bites back to the skillet and mix with the veggies to combine. Easy!",
+    "Ingredients":"[4,7,8,19,20,22,24,29,30]",
+    "Video_Url":"https://youtu.be/sOmwaRWJ5I0"
+  },
+  {
+    "Id":12,
+    "User_Id":1,
+    "Name":"spaghetti bolognese",
+    "Diet": "",
+    "Category_Id":4,
+    "Image":"spaghetti_bolognese",
+    "Duration":"25 minutes",
+    "Instructions":"Put a large saucepan on a medium heat and add 1 tbsp olive oil. Add 4 finely chopped bacon rashers and fry for 10 mins until golden and crisp. Reduce the heat and add the 2 onions, 2 carrots, 2 celery sticks, 2 garlic cloves and the leaves from 2-3 sprigs rosemary, all finely chopped, then fry for 10 mins. Stir the veg often until it softens. Increase the heat to medium-high, add 500g beef mince and cook stirring for 3-4 mins until the meat is browned all over. Add 2 tins plum tomatoes, the finely chopped leaves from ¾ small pack basil, 1 tsp dried oregano, 2 bay leaves, 2 tbsp tomato purée, 1 beef stock cube, 1 deseeded and finely chopped red chilli (if using), 125ml red wine and 6 halved cherry tomatoes. Stir with a wooden spoon, breaking up the plum tomatoes. Bring to the boil, reduce to a gentle simmer and cover with a lid. Cook for 1 hr 15 mins stirring occasionally, until you have a rich, thick sauce. Add the 75g grated parmesan, check the seasoning and stir. When the bolognese is nearly finished, cook 400g spaghetti following the pack instructions. Drain the spaghetti and either stir into the bolognese sauce, or serve the sauce on top",
+    "Ingredients":"[13,19,20,21,31,32,34,35,36,39]",
+    "Video_Url":"https://youtu.be/v2WqcHH65NQ"
+  }
+]

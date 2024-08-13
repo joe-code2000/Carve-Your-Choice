@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grocery_detail_nav"
+    app:startDestination="@id/groceryDetailFragment">
+
+    <fragment
+        android:id="@+id/groceryDetailFragment"
+        android:name="com.example.carveyourchoice.Fragments.GroceryDetail.GroceryDetailFragment"
+        android:label="fragment_grocery_detail"
+        tools:layout="@layout/fragment_grocery_detail" >
+        <action
+            android:id="@+id/action_groceryDetailFragment_to_selectIngredientFragment"
+            app:destination="@id/selectIngredientFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectIngredientFragment"
+        android:name="com.example.carveyourchoice.Fragments.SelectIngredientFragment"
+        android:label="fragment_select_ingredient"
+        tools:layout="@layout/fragment_select_ingredient" >
+        <action
+            android:id="@+id/action_selectIngredientFragment_to_groceryDetailFragment"
+            app:destination="@id/groceryDetailFragment" />
+    </fragment>
+</navigation>

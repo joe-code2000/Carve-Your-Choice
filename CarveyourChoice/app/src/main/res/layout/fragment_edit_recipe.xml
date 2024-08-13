@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.EditRecipe.EditRecipeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="16dp"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/image_card"
+                    android:layout_width="360dp"
+                    android:layout_height="280dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background_colour_2"
+                    app:cardCornerRadius="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/background_colour_2"
+                        android:scaleType="centerCrop" />
+                </androidx.cardview.widget.CardView>
+
+                <RelativeLayout
+                    android:id="@+id/image_btns"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="8dp"
+                    app:layout_constraintTop_toBottomOf="@+id/image_card"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    >
+
+                    <Button
+                        android:id="@+id/add_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:background="@drawable/rounded_corner_2"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="add image"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/remove_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/rounded_corner_2"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="remove image"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:hint="Recipe Name"
+                    android:textColorHint="@color/white"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textSize="20sp"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    app:layout_constraintTop_toBottomOf="@+id/image_btns"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:background="@drawable/rounded_corner"
+                    android:theme="@style/CustomTheme"
+                    />
+
+
+                <LinearLayout
+                    android:id="@+id/category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <Button
+                        android:id="@+id/select_categoryBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center"
+                        android:background="@drawable/rounded_corner_2"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="select Category"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/category_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:padding="8dp"
+                        android:text="Category"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:background="@color/transparent_background"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/edit_diet_ly"
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:padding="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/category"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:background="@drawable/rounded_corner"
+                    android:orientation="vertical"
+                    android:focusable="true"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Diet Details"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="@color/transparent_background"
+                        />
+                    <EditText
+                        android:id="@+id/diet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8sp"
+                        android:padding="8dp"
+                        android:hint="Diet"
+                        android:textSize="16sp"
+                        android:gravity="left"
+                        android:background="@color/background_colour_2"
+                        android:drawableBottom="@color/white"
+                        android:theme="@style/CustomTheme"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/list_ingredient_item_holder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/edit_diet_ly"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="16dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+                    <Button
+                        android:id="@+id/add_ingredientBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="add Ingredient"
+                        android:textSize="12sp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:background="@drawable/rounded_corner_2"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:padding="8dp"
+                        />
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/ingredients"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="4dp"
+                        tools:listitem="@layout/list_ingredient_items"
+                        android:scrollbars="none"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/edit_instructions_ly"
+                    android:layout_width="360dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:padding="20dp"
+                    app:layout_constraintTop_toBottomOf="@+id/list_ingredient_item_holder"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:background="@drawable/rounded_corner"
+                    android:orientation="vertical"
+                    android:focusable="true"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Instructions"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="@color/transparent_background"
+                        />
+                    <EditText
+                        android:id="@+id/instruction"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16sp"
+                        android:padding="8dp"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:background="@color/background_colour_2"
+                        android:theme="@style/CustomTheme"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/duration_ly"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/edit_instructions_ly"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:background="@drawable/rounded_corner"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="Duration"
+                        android:fontFamily="@font/roboto_medium"
+                        android:textSize="20sp"
+                        android:background="@color/transparent_background"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:background="@drawable/rounded_corner"
+                        >
+                        <NumberPicker
+                            android:id="@+id/duration_hour"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:background="@color/transparent_background"
+                            />
+                        <NumberPicker
+                            android:id="@+id/duration_minute"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:background="@color/transparent_background"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edit_video"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:hint="Video Url"
+                    android:layout_marginTop="16sp"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:background="@drawable/rounded_corner"
+                    android:theme="@style/CustomTheme"
+                    app:layout_constraintTop_toBottomOf="@+id/duration_ly"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@color/background_colour_2"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+            <Button
+                android:id="@+id/go_back"
+                android:layout_width="32sp"
+                android:layout_height="32sp"
+                android:src="@drawable/ic_arrow_back"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/ic_arrow_back"
+                android:layout_centerInParent="true"
+                />
+            <Button
+                android:id="@+id/done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:background="@color/background_colour_2"
+                android:text="Done"
+                android:fontFamily="@font/roboto_medium"
+                />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

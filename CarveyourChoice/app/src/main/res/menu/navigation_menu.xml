@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_nav"
+        android:title=""
+        android:icon="@drawable/ic_home"
+        android:iconTint="@color/white"
+        />
+    <item
+        android:id="@+id/myRecipe_nav"
+        android:title=""
+        android:icon="@drawable/ingredient"
+        android:iconTint="@color/white"
+        />
+    <item
+        android:id="@+id/grocery_nav"
+        android:title=""
+        android:icon="@drawable/food"
+        android:iconTint="@color/white"
+        />
+    <item
+        android:id="@+id/mealPlanner_nav"
+        android:title=""
+        android:icon="@drawable/check_list"
+        android:iconTint="@color/white"
+        />
+</menu>
